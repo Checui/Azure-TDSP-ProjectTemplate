@@ -2,32 +2,37 @@
 
 ## Business background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+* Santander
+* Fraud detection in the customers
 
 ## Scope
 * What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+* Deep learning models to determine the fraudulent client
+* Train a neuronal model to classify the customer activities. To determine if they are fraudulent.
+* Proceed all the bank's clients data every 2 weeks to determine if there are any fraudulent action.
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
+	* KK:
+		* Project lead: 1
+		* PM: 1
+		* Data scientist(s): 4
+		* Account manager: 1
+	* Santander:
+		* Data administrator: 2
+		* Business contact: 2
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
+* Indentification of fraudulent activities.
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
+* Improving the recall to the 95% in the detection.
+* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%)
+* Improving the recall by 30% 
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
+* Current frau detectio recall = 65%
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
-
+* We will measure and compare the recall of both model respect the dataset is given.
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
